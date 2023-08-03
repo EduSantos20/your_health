@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: #8eba1c;
+}
+.container {
+  text-align: center;
+  padding: 10px;
+}
+.header {
+  display: block;
+}
+.headerMenu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+.headerMenu li a {
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+.headerMenu li a img {
+  height: 25px;
+  filter: invert(100%);
+}
+.headerMenuEmail {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+.headerMenuEmail li a {
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+.headerMenuEmail li a img {
+  height: 25px;
+  filter: invert(100%);
+}
+.headerMenuIcon {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.headerMenuIcon li {
+  background: white;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+}
+.headerMenuIcon li a img {
+  height: 30px;
+  margin: 5px;
+  filter: invert(65%);
+}
+
+.containerMenu {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+}
+.containerMenu div img {
+  height: 50px;
+}
+button {
+  height: 45px;
+  width: 40px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #8eba1c;
+}
+div .button {
+  width: 160px;
+  height: 45px;
+  border-radius: 0px 30px 0px 30px;
+}
+div {
+  text-align: center;
+}
+.img {
+  background-image: url(./img/banner-nutri3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #838878;
+  filter: opacity(80%) saturate(50%);
+  height: 300px;
+  color: white;
+  padding: 5px;
+  z-index: 0;
+}
+.img div h2 {
+  margin-top: 2rem;
+  font-family: "Roboto" sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 5px;
+}
+.img div p {
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5px;
+}
+aside {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f8f8f8;
+}
+aside div img {
+  width: 380px;
+}
+aside .asider2 h2 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 27px;
+}
+strong {
+  color: #8eba1c;
+  font-weight: bold;
+  font-size: 27px;
+}
+aside .asider2 p {
+  text-align: justify;
+  padding: 30px;
+}
+
+.sectionNutricao {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sectionNutricao .title {
+  font-size: 39px;
+  font-weight: 900;
+  color: #8eba1c;
+}
+.nutricao1 img,
+.nutricao2 img,
+.nutricao3 img {
+  filter: invert(100%);
+  height: 80px;
+  width: 80px;
+}
+.nutricao1 h1,
+.nutricao2 h1,
+.nutricao3 h1 {
+  font-weight: 900;
+  padding: 2px;
+}
+.nutricao1,
+.nutricao3 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.nutricao2 {
+  background-color: #8eba1c;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.button {
+  width: 210px;
+  height: 50px;
+  border-radius: 0px 30px 0px 30px;
+}
+.sectionEsport {
+  background-color: black;
+  text-align: center;
+}
+.sectionEsport img {
+  height: 80px;
+  width: 80px;
+}
+.sectionEsport h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px;
+}
+.sectionEsport p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+.especialidade1 img,
+.especialidade3 img {
+  filter: invert(100%);
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+.especialidade2 img,
+.especialidade4 img {
+  margin: 10px;
+}
+.especialidade1 h1,
+.especialidade2 h1,
+.especialidade3 h1,
+.especialidade4 h1 {
+  font-weight: 900;
+  padding: 2px;
+}
+.especialidade1,
+.especialidade3 {
+  background-color: #8eba1c;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.especialidade2 p,
+.especialidade4 p,
+.especialidade2 h1,
+.especialidade4 h1 {
+  color: black;
+}
+.especialidade2,
+.especialidade4 {
+  background-color: white;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+  color: black;
+}
