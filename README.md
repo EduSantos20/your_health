@@ -36,5 +36,5 @@ O Love your Health é um site de nutrição para ta dando dicas de como ter sua 
 Esse projeto está sob a licença MIT.
 
 ---
-<h3 align="center" background-color="green">Feito com ♥ by Eduardo Santos</h3>
+<p align="center" background-color="green">Feito com ♥ by Eduardo Santos</p>
 
