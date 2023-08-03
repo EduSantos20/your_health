@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Love your Health é um site de nutrição para ta dando dicas de como ter sua alimentação saudevel, como alcançar deu ojetivo, melhoria de qualidade de vi, aprender sobre nutrição e qualquer problema que estiver está procurando a nossa especialidade para mais informais.
+O Love your Health é um site de nutrição para ta dando dicas de como ter sua alimentação saudevel, como alcançar deu ojetivo, melhoria de qualidade de vida, aprender sobre nutrição e qualquer problema que estiver está procurando a nossa especialidade para mais informais.
 
 ## :memo: Licença
 
