@@ -140,8 +140,7 @@ strong {
   font-weight: bold;
   font-size: 27px;
 }
-aside .asider2 p {
-  text-align: justify;
+aside .asider2 {
   padding: 30px;
 }
 
