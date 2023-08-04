@@ -23,7 +23,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   font-size: 1.1rem;
 }
 .headerMenu li a {
@@ -107,16 +107,16 @@ div .button {
 }
 .img div h2 {
   margin-top: 2rem;
-  font-family: "Roboto" sans-serif;
-  font-size: 50px;
+  font-size:27px;
   font-weight: 900;
   padding: 5px;
+  text-align: center;
 }
 .img div p {
-  font-family: "Roboto" sans-serif;
   font-size: 20px;
   font-weight: 900;
   padding: 5px;
+  text-align: center;
 }
 aside {
   display: flex;
@@ -126,7 +126,7 @@ aside {
   background-color: #f8f8f8;
 }
 aside div img {
-  width: 380px;
+  width: 300px;
 }
 aside .asider2 h2 {
   color: black;
@@ -296,7 +296,7 @@ aside .asider2 {
 }
 .contato div iframe {
   height: 400px;
-  width: 350px;
+  width: 310px;
 }
 .contato ul li a {
   color: rgb(104, 102, 102);
@@ -306,7 +306,6 @@ aside .asider2 {
 }
 .cardContato ul {
   list-style: none;
-  font-size: 20px;
 }
 .cardContato img {
   height: 20px;
