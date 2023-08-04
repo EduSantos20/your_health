@@ -91,6 +91,7 @@ div .button {
   width: 180px;
   height: 45px;
   border-radius: 0px 30px 0px 30px;
+  margin-bottom: 10px;
 }
 
 .img {
@@ -157,6 +158,7 @@ aside .asider2 p {
   font-size: 39px;
   font-weight: bold;
   color: #8eba1c;
+  text-align: center;
 }
 .nutricao1 img,
 .nutricao2 img,
@@ -255,9 +257,10 @@ aside .asider2 p {
 }
 .cardBlog .cards .titleCard {
   padding: 5px;
-  color: rgb(59, 58, 58);
+  color: rgb(99, 98, 98);
   font-size: 17px;
   font-weight: 800;
+  text-align: center;
 }
 .card {
   box-shadow: 0px 2px 5px rgb(177, 177, 177);
@@ -268,13 +271,18 @@ aside .asider2 p {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-.card div{
+.card div {
   padding: 20px;
 }
 .card .button {
   margin: 10px;
 }
-
+.card div h2 a{
+  color: rgb(99, 98, 98);
+}
+.card div p{
+  color: rgb(99, 98, 98);
+}
 .contato {
   background-color: #f8f8f8;
   text-align: center;
@@ -291,12 +299,16 @@ aside .asider2 p {
   height: 400px;
   width: 350px;
 }
-.contato ul li a{
+.contato ul li a {
   color: rgb(104, 102, 102);
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 .cardContato ul {
   list-style: none;
   font-size: 20px;
+}
+.cardContato img {
+  height: 20px;
 }
