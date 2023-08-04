@@ -88,13 +88,11 @@ button {
   background-color: #8eba1c;
 }
 div .button {
-  width: 160px;
+  width: 180px;
   height: 45px;
   border-radius: 0px 30px 0px 30px;
 }
-div {
-  text-align: center;
-}
+
 .img {
   background-image: url(./img/banner-nutri3.jpg);
   background-repeat: no-repeat;
@@ -155,8 +153,9 @@ aside .asider2 p {
   gap: 20px;
 }
 .title {
+  font-family: "Roboto", sans-serif;
   font-size: 39px;
-  font-weight: 900;
+  font-weight: bold;
   color: #8eba1c;
 }
 .nutricao1 img,
@@ -186,11 +185,6 @@ aside .asider2 p {
   font-size: 20px;
   padding: 12px;
   border-radius: 10px;
-}
-.button {
-  width: 210px;
-  height: 50px;
-  border-radius: 0px 30px 0px 30px;
 }
 .sectionEsport {
   background-color: black;
@@ -256,25 +250,53 @@ aside .asider2 p {
 .cardBlog {
   padding: 5px;
 }
+.cardBlog .button {
+  text-align: center;
+}
 .cardBlog .cards .titleCard {
   padding: 5px;
   color: rgb(59, 58, 58);
   font-size: 17px;
   font-weight: 800;
 }
-.card{
+.card {
   box-shadow: 0px 2px 5px rgb(177, 177, 177);
   margin-bottom: 20px;
 }
-.card div img {
+.card img {
   height: 100%;
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
+.card div{
+  padding: 20px;
+}
 .card .button {
   margin: 10px;
 }
-.card p {
-  padding: 5px;
-  margin: 5px;
+
+.contato {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.contato .contatos {
+  padding: 20px;
+}
+.contato p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(110, 109, 109);
+}
+.contato div iframe {
+  height: 400px;
+  width: 350px;
+}
+.contato ul li a{
+  color: rgb(104, 102, 102);
+  display: flex;
+  gap: 20px;
+}
+.cardContato ul {
+  list-style: none;
+  font-size: 20px;
 }
